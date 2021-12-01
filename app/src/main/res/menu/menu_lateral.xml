@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group_nav_main"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/bottom_btn1"
+            android:title="Home"/>
+
+        <item
+            android:id="@+id/nav_delivery"
+            android:icon="@drawable/bottom_btn3"
+            android:title="Pedir Delivery"/>
+
+    </group>
+    <item android:title="RESERVAS"/>
+    <group
+        android:id="@+id/group_nav_reservas"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_reservas"
+            android:icon="@drawable/bottom_btn3"
+            android:title="Hacer Reservas"/>
+        <item
+            android:id="@+id/nav_ver_reservas"
+            android:icon="@drawable/bottom_btn3"
+            android:title="Ver Reservas"/>
+    </group>
+
+
+</menu>
